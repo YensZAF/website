@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>arch on Yens - constructing...</title>
-    <link>http://example.org/tags/arch/</link>
-    <description>Recent content in arch on Yens - constructing...</description>
+    <title>arch on Yens Loff | CyberSecurity Analyst</title>
+    <link>https://yensloff.com/tags/arch/</link>
+    <description>Recent content in arch on Yens Loff | CyberSecurity Analyst</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yensloff.com/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch Installation Guide</title>
-      <link>http://example.org/posts/arch-install/</link>
+      <link>https://yensloff.com/posts/arch-install/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/arch-install/</guid>
+      <guid>https://yensloff.com/posts/arch-install/</guid>
       <description>&lt;h1 id=&#34;a-personal-arch-installation-guide&#34;&gt;A Personal Arch Installation Guide&lt;/h1&gt;
 &lt;p&gt;This is a personal guide so if you are lost and just found this guide from somewhere, I recommend you to read the official &lt;a href=&#34;https://wiki.archlinux.org/index.php/Installation_guide&#34;&gt;&lt;code&gt;wiki&lt;/code&gt;&lt;/a&gt;!  This guide will focus on &lt;code&gt;systemd-boot&lt;/code&gt;, &lt;code&gt;UEFI&lt;/code&gt; and a guide if you want to encrypt your partition with &lt;code&gt;LUKS/LVM&lt;/code&gt;. This guide exists so that I can remember a bunch of things when reinstalling &lt;code&gt;Archlinux&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;pre-installation&#34;&gt;Pre-installation&lt;/h2&gt;
