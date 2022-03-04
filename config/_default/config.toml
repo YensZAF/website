@@ -1,0 +1,16 @@
+baseURL = 'https://www.yensloff.com/'
+languageCode = 'en'
+title = 'Yens Loff | CyberSecurity Analyst'
+theme = "hugo-theme-monochrome"
+defaultContentLanguage = "en"
+
+[build]
+  writeStats = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+#series = "series"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]

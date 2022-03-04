@@ -1,0 +1,26 @@
+[[navbar]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+[[navbar]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+[[navbar]]
+  identifier = "projects"
+  name = "Projects"
+  url = "/projects/"
+  weight = 3
+  [[navbar]]
+    identifier = "project_placeholder"
+    name = "Project Placeholder"
+    url = "/projects/project"
+    parent = "projects"
+    weight = 1
+[[navbar]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 4
