@@ -1,3 +1,0 @@
-added styles:
-md:mr-3 md:ml-0 mr-2 ml-2
-inside theme > layouts > shortcodes > svg-wrappers
