@@ -1,476 +1,54 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
-<html class="h-full w-full font-sans" lang='en'><head>
-	<meta name="generator" content="Hugo 0.96.0" />
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href='https://www.yensloff.com/favicon.ico' type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yens Loff | CyberSecurity Analyst</title>
-
-    
-    <meta name="description" content="This is my personal webpage. Have a look at my past projects and blog posts!" />
-    
-
-    
-    <meta name="keywords" content="yens loff,yens,loff,developer,cyber,security,pentest,programmer" />
-    
-
-    
-    <meta name="author" content="yens.loff@gmail.com" />
-    
-
-    
-        <meta property="og:title" content="Yens Loff | About" />
-<meta property="og:description" content="This is my personal webpage. Have a look at my past projects and blog posts!" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.yensloff.com/" />
-
-
-    
-
-    
-        <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Yens Loff | About"/>
-<meta name="twitter:description" content="This is my personal webpage. Have a look at my past projects and blog posts!"/>
-
-    <link rel="stylesheet" href="/css/styles.min.1df5d6c2c1a9e9d663afc611227e48d282ec21f3c7ae657fb7bf433f8ff5be6eda23742cbcd639db564794d4818defc98272f159e7efe62108acf0fcfa89f22e.css" integrity="sha512-HfXWwsGp6dZjr8YRIn5I0oLsIfPHrmV/t79DP4/1vm7aI3QsvNY521ZHlNSBje/JgnLxWefv5iEIrPD8+onyLg==">
-
-
-
-
-
-    
-    <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
-        } else {
-            document.documentElement.classList.remove('dark');
-        }
-    </script>
-</head><body class="flex flex-col items-center w-full">
-        <main class="w-full sm:w-10/12 md:w-9/12 lg:w-7/12 xl:w-5/12 m-auto px-6"><header class="mt-9 mb-8">
-    <div class="flex justify-between items-center">
-        <div class="flex items-center">
-            <input id="navbar_btn" class="hidden" type="checkbox">
-            <label for="navbar_btn" class="menu-btn mr-4 items-center flex xl:hidden">
-                <span class="navicon"></span>
-            </label>
-            <a href="/" class="font-bold text-lg xl:text-2xl mr-auto">Yens Loff</a>
-        </div>
-
-        <div class="flex items-center">
-            <div class="cursor-pointer ml-2">
-                <svg id="dark_mode_btn" class="hidden" width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M20 15.31L23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg></svg>
-                <svg id="light_mode_btn" class="hidden" width="18px" height="18px" viewBox="0 0 24 24"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><g><path d="M0,0h24v24H0V0z" fill="none"/></g><g><g><g><path d="M14,2c1.82,0,3.53,0.5,5,1.35C16.01,5.08,14,8.3,14,12s2.01,6.92,5,8.65C17.53,21.5,15.82,22,14,22C8.48,22,4,17.52,4,12 S8.48,2,14,2z"/></g></g></g></svg></svg>
+<html lang="en" class="text-black bg-white dark:text-white dark:bg-black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yens Loff</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
+    <main class="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+        <aside class="-ml-[8px] mb-16 tracking-tight">
+            <div class="lg:sticky lg:top-20">
+                <nav class="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative" id="nav">
+                    <div class="flex flex-row space-x-0 pr-10">
+                        <a class="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2" href="/">home</a>
+                        <a class="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2" href="/work">work</a>
+                        <a class="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative py-1 px-2" href="/certs">certifications</a>
+                    </div>
+                </nav>
             </div>
-
-            
-
-            
-                <div class="ml-2 sep hidden sm:block"></div>
-                <div class="ml-2 relative flex items-center">
-                    <svg id="search_btn" class="cursor-pointer" width="18px" height="18px" viewBox="2 0 20 20"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg></svg><div id="search_menu_wrapper" class="hidden justify-center fixed top-0 left-0 w-full h-full z-40">
-    <div id="search_menu" class="fixed flex flex-col w-full h-full sm:h-auto sm:top-24 sm:bottom-24 rounded-none sm:rounded-md sm:w-120 z-50">
-        <div class="flex min-h-10 shadow-md">
-            <div class="flex flex-grow">
-                <input id="search_menu_input" class="flex-grow focus:outline-none px-4 rounded-tl-md" type="text" placeholder=
-                Search&#32;Posts>
+        </aside>
+        <section class="flex justify-between">
+            <div class="inline-block w-3/4 text-center md:text-left flex align-middle">
+                <div class="self-center">
+                    <h1 class="text-2xl font-semibold">Hi, I'm Yens Loff <span>&#128588;</span></h1>
+                    <p class="font-normal italic text-sm mb-3">Cyber Security Professional</p>
+                    <p class="font-normal text-sm">A DevOps professional with expertise in security operations within the Blue Team. Proficient in automating security reports to streamline data collection, analysis, and dissemination processes.</p>
+                </div>
             </div>
-            <div id="search_menu_close_btn" class="flex items-center justify-center w-10 rounded-tr-md cursor-pointer">
-                <svg width="14px" height="14px" viewBox="3 3 18 18"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></svg>
+            <div class="inline-block w-1/4">
+                <img src="profile_pic.png" alt="avatar" class="h-36 mx-auto">
             </div>
-        </div>
-        <div id="search_menu_results" class="flex-grow overflow-y-auto">
-        </div>
-    </div>
-</div>
-</div>
-            
-        </div>
-    </div>
-
-    <nav id="navbar" class="mt-3 hidden xl:block"><ul class="flex"><li class="navbar-item text-sm border-b-2 pb-1 mr-2 font-medium">
-                        <a href="/">Home</a>
-                    </li><li class="navbar-item text-sm border-b-2 pb-1 mr-2 font-medium inactive">
-                        <a href="/projects/">Projects</a>
-                    </li></ul>
-    </nav>
-
-    <nav id="navbar_sm" class="mt-2 hidden">
-        <ul>
-            
-                <li class="text-sm mt-2">
-                    <a href="/">Home</a></li>
-            
-                <li class="text-sm mt-2">
-                    <a href="/projects/">Projects</a></li>
-            
-        </ul>
-
-        <hr class="my-4">
-    </nav>
-</header>
-<div id="content" class="my-8">
-                
-
-    <div class="md:-ml-7">
-        
-
-
-
-
-
-    
-
-
-
-
-    
-
-
-
-<div class="flex w-full flex-col md:flex-row">
-    
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        <div class="dark:hidden">
-            
-    <div class="w-24 h-24">
-        <img alt="balloon_head" width="108px" height="108px" src='https://www.yensloff.com/profile_pic.png' class="w-full rounded-full">
-    </div>
-
-
-        </div>
-        <div class="hidden dark:block">
-            
-    <div class="w-24 h-24">
-        <img alt="balloon_head" width="108px" height="108px" src='https://www.yensloff.com/profile_pic.png' class="w-full rounded-full">
-    </div>
-
-
-        </div>
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-    
-    <div class="w-full flex justify-center md:hidden">
-        <div class="dark:hidden">
-            
-    <div class="w-20 h-20 my-8">
-        <img alt="balloon_head" width="90px" height="90px" src='https://www.yensloff.com/profile_pic.png' class="w-full rounded-full">
-    </div>
-
-
-        </div>
-        <div class="hidden dark:block">
-            
-    <div class="w-20 h-20 my-8">
-        <img alt="balloon_head" width="90px" height="90px" src='https://www.yensloff.com/profile_pic.png' class="w-full rounded-full">
-    </div>
-
-
-        </div>
-    </div>
-
-    <div class="flex flex-1 justify-center md:justify-start items-center md:ml-4">
-        <div class="text-center md:text-left">
-<article >
-    
-
-
-<div class="inline-block w-6 h-6 svg-wrapper md:mr-3 md:ml-0 mr-2 ml-2">
-    
-        <a rel="noopener" target="_blank" href="https://github.com/YensZAF" aria-label="$icon_name">
-    
-        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
-
-    
-        </a>
-    
-</div>
-
-
-
-
-<div class="inline-block w-6 h-6 svg-wrapper md:mr-3 md:ml-0 mr-2 ml-2">
-    
-        <a rel="noopener" target="_blank" href="https://twitter.com/yensloff" aria-label="$icon_name">
-    
-        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path></svg>
-    
-        </a>
-    
-</div>
-
-
-
-
-<div class="inline-block w-6 h-6 svg-wrapper md:mr-3 md:ml-0 mr-2 ml-2">
-    
-        <a rel="noopener" target="_blank" href="https://www.linkedin.com/in/yensloff/" aria-label="svg-wrapper">
-    
-        
-            
-<svg width="24" height="24" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-
-        
-    
-        </a>
-    
-</div>
-
-<p>Hi 👋 <br>
-I&rsquo;m a recent graduate entering the cybersecurity space!</p>
-
-</article>
-</div>
-    </div>
-</div>
-
-
-        
-        
-
-        
-            
-
-            
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-
-    <div class="flex-1 mt-8 font-bold text-center md:text-left">
-        Experience
-    </div>
-</div>
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        <div class="balloon-dot w-4 h-4 rounded-full border-2 my-1"></div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-
-    <div class="balloon-card flex-1 rounded-md shadow-md text-sm text-left my-3 overflow-auto">
-        <div class="m-5">
-<article >
-    <p><strong>Cyberlogic</strong> - <em>Cybersecurity Intern</em> <br>
-<strong>S<sup>2</sup> Web Solutions</strong> - <em>Web Developer Intern</em></p>
-
-</article>
-</div>
-    </div>
-</div>
-
-            
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-
-    <div class="flex-1 mt-8 font-bold text-center md:text-left">
-        Education
-    </div>
-</div>
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        <div class="balloon-dot w-4 h-4 rounded-full border-2 my-1"></div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-
-    <div class="balloon-card flex-1 rounded-md shadow-md text-sm text-left my-3 overflow-auto">
-        <div class="m-5">
-<article >
-    <p><strong>Rhodes University</strong> - <em>BSc Computer Science &amp; Information Systems</em> <br>
-<strong>York High School</strong> - <em>National Senior Certificate</em></p>
-
-</article>
-</div>
-    </div>
-</div>
-
-            
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-    </div>
-
-    <div class="flex-1 mt-8 font-bold text-center md:text-left">
-        Certificates
-    </div>
-</div>
-                <div class="flex w-full flex-col md:flex-row">
-    <div class="w-28 relative hidden flex-col items-center md:flex">
-        
-<div class="flex-1 flex justify-center">
-    
-    <div class="balloon-line" style="width: 2px"></div>
-    
-</div>
-
-        <div class="balloon-dot w-4 h-4 rounded-full border-2 my-1"></div>
-
-        
-<div class="flex-1 flex justify-center">
-    
-</div>
-
-    </div>
-
-    <div class="balloon-card flex-1 rounded-md shadow-md text-sm text-left my-3 overflow-auto">
-        <div class="m-5">
-<article >
-    
-
-
-<div class="inline-block md:mr-3 md:ml-0 mr-2 ml-2">
-    
-        <a rel="noopener" target="_blank" href="https://www.credly.com/badges/f32f1a61-a7d1-40dc-a433-7d6557be0b08/public_url" aria-label="$icon_name">
-    
-        <img src="comptia-security-ce-certification.png" alt="CompTIA Security+" title="CompTIA Security+">
-    
-        </a>
-    
-</div>
-
-<p>Scheduled to Write:</p>
-<ul>
-<li><del><strong>SY0-601</strong> CompTIA Security+ (<em>April 2022</em>)</del></li>
-<li><strong>MS-500</strong> Microsoft 365 Security Administration (<em>May-June 2022</em>)</li>
-<li><strong>AZ-500</strong> Microsoft Azure Security Technologies (<em>June-July 2022</em>)</li>
-<li><strong>SC-200</strong> Microsoft Security Operations Analyst (<em>August-September 2022</em>)</li>
-<li><strong>N10-008</strong> - CompTIA Network+ (<em>late 2022</em>)</li>
-<li>eJPTv2 (<em>late 2022</em>)</li>
-<li><strong>CS0-002</strong> CompTIA CySA+ (<em>2023</em>)</li>
-</ul>
-
-</article>
-</div>
-    </div>
-</div>
-
-            
-        
-    </div>
-
-
-
-
-                
-                    
-                
+        </section>
+        <!-- TEMP SPACER -->
+        <section class="h-10"> </section>
+        <!-- END TEMP SPACER -->
+        <section class="flex justify-between">
+            <div class="w-52 gradient-box gradient-color-1 text-black bg-white dark:text-white dark:bg-black">
+                <a href="http://#"><img class="rounded-2xl hover:scale-110 duration-150" src="CompTIA_CSAP.png" alt="CSAP certification"></a>
+                <h2 class="text-sm font-semibold mt-3">CompTIA Security Analytics Professional</h2>
             </div>
-<footer class="my-8 w-full text-center text-xs">
-    <article>Copyright © 2022 by Yens</article>
-</footer>
-
-</main>
-<script src="/js/header.0b11855b871cb4d10c6c07b6723b9209f5c2bc9100735ab6ff47c8f9b76bb3d6ae41b488083b5fb15697987334039eb651b25c83228c29ac48a2bc168db8a894.js" integrity="sha512-CxGFW4cctNEMbAe2cjuSCfXCvJEAc1q2/0fI&#43;bdrs9auQbSICDtfsVaXmHM0A562UbJcgyKMKaxIorwWjbiolA=="></script>
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    <script src="/js/search-en.min.bec146551f8374e12c37370f01ddf6f04d9c49239f0e639421008ce477afa7f427093c356ea25937a0f409b439c86388ec35455497d516d105011d56f7a8c2ad.js" integrity="sha512-vsFGVR&#43;DdOEsNzcPAd328E2cSSOfDmOUIQCM5Hevp/QnCTw1bqJZN6D0CbQ5yGOI7DVFVJfVFtEFAR1W96jCrQ=="></script>
-
-
-
-
+            <div class="w-52 gradient-box gradient-color-2 text-black bg-white dark:text-white dark:bg-black">
+                <a href="http://#"><img class="rounded-2xl hover:scale-110 duration-150" src="Comptia_CySA.png" alt="CySA certification"></a>
+                <h2 class="text-sm font-semibold mt-3">CompTIA Cybersecurity Analyst</h2>
+            </div>
+            <div class="w-52 gradient-box gradient-color-3 text-black bg-white dark:text-white dark:bg-black">
+                <a href="http://#"><img class="rounded-2xl hover:scale-110 duration-150" src="CompTIA_Security.png" alt="Security+ certification"></a>
+                <h2 class="text-sm font-semibold mt-3">CompTIA Security+</h2>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
