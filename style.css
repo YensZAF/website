@@ -1,11 +1,11 @@
 :root {
-    /* --gradient-1: linear-gradient(to right, rgb(217, 70, 239), rgb(6, 182, 212));
-    --gradient-2: linear-gradient(to right, #ff5c5c, #65c9ff);
-    --gradient-3: linear-gradient(to right, #30e8bf, #ff8235); */
-
     --gradient-1: linear-gradient(to top right, rgb(217, 70, 239), rgb(6, 182, 212));
     --gradient-2: linear-gradient(to right, rgb(45 212 191), rgb(254 240 138));
     --gradient-3: linear-gradient(to top left, rgb(245 158 11), rgb(236 72 153));
+}
+
+body {
+    font-family: "Roboto", sans-serif;
 }
 
 .gradient-box {
