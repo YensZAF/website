@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/tags/news/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Interests</title>
+      <link>http://localhost:1313/tags/interests/</link>
+      <pubDate>Fri, 10 Jan 2025 19:16:27 +0000</pubDate>
+      <guid>http://localhost:1313/tags/interests/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
