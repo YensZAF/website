@@ -1,9 +1,8 @@
 +++
-date = '2025-01-15T19:16:27Z'
+date = '2025-01-10T19:16:27Z'
 draft = false
 title = 'Exposed: The Apps That Leak Your Location and Your Privacy'
-link = 'https://www.youtube.com/watch?v=dEv0L6vhCHo'
-tags = ['news']
+tags = ['news', 'interests']
 +++
 
 In today's digital age, our privacy is at constant risk, and recent revelations about apps leaking location data add a new layer of concern. A hacking breach has brought to light the unsettling truth about how certain apps can inadvertently expose our movements to law enforcement and data brokers alike. This article delves into these alarming findings, highlighting key incidents from prominent platforms like Gravy Analytics, Telegram, and even Apple’s Siri, ultimately raising questions about our digital safety and privacy rights.
