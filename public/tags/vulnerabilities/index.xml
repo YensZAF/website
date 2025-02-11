@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exploits on Yens Loff</title>
-    <link>http://localhost:1313/tags/exploits/</link>
-    <description>Recent content in Exploits on Yens Loff</description>
+    <title>Vulnerabilities on Yens Loff</title>
+    <link>http://localhost:1313/tags/vulnerabilities/</link>
+    <description>Recent content in Vulnerabilities on Yens Loff</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2025 12:10:27 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/exploits/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding the Latest Rsync Vulnerability: A 2025 Breakdown of Buffer Overflows</title>
       <link>http://localhost:1313/posts/rsync-exploit/</link>
