@@ -59,9 +59,6 @@ To combat supply chain attacks like this, developers and organizations can consi
 
 The incident with the Go module mirror serves as a stark reminder that trusting third-party packages without due diligence can lead to significant security breaches. Developers must adopt a proactive approach to secure their codebases as coding becomes more complicated and reliant on numerous external dependencies. <mark>Continuous education</mark> about security threats, combined with best practices in code management, can help mitigate the risks posed by supply chain vulnerabilities.   
 
-### Call to Action
-
-Stay informed, audit your dependencies regularly, and engage with the programming community to share knowledge about package security. Implement rigorous checks and assessments in your development workflow to help safeguard yourself and your projects from future supply chain vulnerabilities. By fostering a culture of security-first practices, we can create a safer programming landscape. 
 
 ## Sources:
 - https://arstechnica.com/security/2025/02/backdoored-package-in-go-mirror-site-went-unnoticed-for-3-years/
